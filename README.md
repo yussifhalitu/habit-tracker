@@ -19,3 +19,6 @@ Setup: create the Google Cloud service account, share the sheet with its email, 
 Daily usage: the four scripts and when to run each. daily_logger.py runs automatically at login. Run habit_marker.py in the evening, and streak_calculator.py and weekly_updater.py when you want fresh numbers.
 Limitations: it needs an internet connection, because every script calls the Google Sheets API.
 
+Setup: create the Google Cloud service account, share the sheet with its email, and run pip install -r requirements.txt.
+Daily usage: the four scripts and when to run each. daily_logger.py runs automatically at login. Run habit_marker.py in the evening, and streak_calculator.py and weekly_updater.py when you want fresh numbers.
+Limitations: it needs an internet connection, because every script calls the Google Sheets API.
